@@ -44,20 +44,11 @@ elif flag2 == True:
         deposit_ammount = int(input("Enter deposit amount: "))
         AccountDetails[z][1] += deposit_ammount
         print(f'{"new balance is "}{AccountDetails[z][1]}')
-
     if choice == "3":
         process = True
         print(f'{"current balance:"}{AccountDetails[z][1]}')
-
     if choice == "4":
         process = True
         pass
     if process == False:
         print("invalid choice")
-
-
-
-
-
-
-
